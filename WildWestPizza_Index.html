@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wild West Pizza - Online Ordering</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	</head>
+	<body>
+	<!--Full Pizza Menu-->
+	<div id="fullmenu">
+		<!--First row Pizza Base Options-->
+		<div class=text-center>
+		<img src="./images/WWPizza/HotPizza.jpg" class="rounded" alt="Hot Pizza">
+		</div>
+		<br /><br /><br />
+		<div class="row">
+			<div class="col-md-4">
+				<!--Pizza Size Form-->
+				<div  id="piesize" class="container">
+				  <h2>Pizza Size</h2>
+				  <p>Which size of pizza would you like to start building?</p>
+				  <form>
+					<div class="radio">
+					  <label><input type="radio" name="pizzasize" value="Personal">Personal</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="pizzasize" value="Medium">Medium</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="pizzasize" value="Large" checked>Large</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="pizzasize" value="Extra Large">Extra Large</label>
+					</div>
+				  </form>
+				</div>
+				<!--End of Pizza Size Form-->
+			</div>
+			<div class="col-md-4">
+				<!--Crust Form-->
+				<div  id="cruststyle" class="container">
+				  <h2>Crust Style</h2>
+				  <p>Which style of crust would you like?</p>
+				  <form>
+					<div class="radio">
+					  <label><input type="radio" name="crust" value="Plain" checked>Plain Crust</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="crust" value="Garlic">Garlic Butter Crust</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="crust" value="Cheese Stuffed">Cheese Stuffed Crust (+ $3)</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="crust" value="Spicy">Spicy Crust</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="crust" value="House Special">House Special Crust</label>
+					</div>
+				  </form>
+				</div>
+				<!--End of Crust Form-->
+			</div>
+			<div class="col-md-4">
+				<!--Sauce Form-->
+				<div  id="sauceoption" class="container">
+				  <h2>Sauce Option</h2>
+				  <p>Which sauce would you like?</p>
+				  <form>
+					<div class="radio">
+					  <label><input type="radio" name="sauce" value="Marinara Sauce" checked>Marinara Sauce</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="sauce" value="White Sauce">White Sauce</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="sauce" value="BBQ Sauce">Barbeque Sauce</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="sauce" value="No Sauce">No Sauce</label>
+					</div>
+				  </form>
+				</div>
+				<!--End of Sauce Form-->
+				<br /><br /><br />
+			</div>
+		</div>
+		<!--End of First Row: Pizza Base Options-->
+		<!--Second Row: Toppings-->
+		<div class="row">
+			<div class="col-md-4">
+				<!--Cheese Form-->
+				<div id="cheese" class="container">
+				  <h2>Cheese Option</h2>
+				  <p>Which cheese option would you like?</p>
+				  <form>
+					<div class="radio">
+					  <label><input type="radio" name="cheese" value="Regular Cheese" checked>Regular</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="cheese" value="No Cheese">No Cheese</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="cheese" value="Extra Cheese">Extra Cheese (+ $3)</label>
+					</div>
+				  </form>
+				</div>
+				<!--End of cheese Form-->
+				
+			</div>
+			<div class="col-md-4">
+				<!--Meats Form-->
+				<div id="Meats" class="container">
+				  <h2>Meat Toppings</h2>
+				  <p>Which meat toppings would you like to add?</p>
+				  <p>(First is complimentary, $1 each additional)</p>
+				  <form>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="meat" value="Pepperoni">Pepperoni</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="meat" value="Sausage">Sausage</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="meat" value="Canadian Bacon">Canadian Bacon</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="meat" value="Ground Beef">Ground Beef</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="meat" value="Anchovy">Anchovy</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="meat" value="Chicken">Chicken</label>
+					</div>
+				  </form>
+				</div>
+				<!--End of Meats Form-->
+			</div>
+			<div class="col-md-4">
+				<!--Veggies Form-->
+				<div  id="veggies" class="container">
+				  <h2>Vegetable Toppings</h2>
+				  <p>Which vegetable toppings would you like to add?</p>
+				  <p>(First is complimentary, $1 each additional)</p>
+				  <form>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="veggie" value="Tomatoes">Tomatoes</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="veggie" value="Mushrooms">Mushrooms</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="veggie" value="Onions">Onions</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="veggie" value="Green Peppers">Green Peppers</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="veggie" value="Olives">Olives</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="veggie" value="Pineapple">Pineapple</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="veggie" value="Spinach">Spinach</label>
+					</div>
+					<div class="checkbox">
+					  <label><input type="checkbox" name="veggie" value="Jalape&ntilde;o">Jalape&ntilde;o</label>
+					</div>
+				  </form>
+				</div>
+				<!--End of Veggies Form-->
+				
+				<!--hidden prompt, ask for additional pizzas-->
+				<div id="popupBox">
+					<p>Your pizza has been added. Would you like another?</p>
+					<input type="button" id="morepizzaBtn" value="Yes, Add another"/>
+					<input type="button" id="checkoutBtn" class="btn btn-warning" value="No, Go to checkout"/>
+				</div>
+				<!--End of hidden prompt-->
+				
+			  <br /><br /><br />
+			  <!--add pizza to order button-->
+			  <input type="submit" id="addpizza" class="btn btn-success" value="Add Pizza to Order" onclick="pizza_order()">
+			  <!--End add pizza button-->
+			  
+			</div>
+		</div>
+		<!--End of Second Page Toppings-->
+		
+	</div> 
+	<!--End of Menu-->
+		
+	<!--Check out-->	
+	<div id="checkout">	
+		
+		<br /><br /><br />
+		<!--Additional functionality to add later (back button)<input type="button" id="backtomenuBtn" class="btn btn-info" value="<< Go Back to Pizza Options" onclick="clear();">-->
+		<h1 id="order">Order Summary</h1>
+		<table id="ordersummary" class="table table-bordered">
+		<tr>
+			<th>Item</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td><strong>Order Total</Strong></td>
+			<td id="total">$0.00</td>
+		</tr>
+		</table>
+		<br /><br /><br />
+		
+		<!--(Not in use) Hidden Confirmation (not in use)
+		<div id="confirmationBox">
+			<p>Thank you! Your pizza order has been placed.<br />
+			Please call the store with any questions or modifications.</p>
+		</div>
+		<!--End of hidden confirmation-->
+		
+		<!--Submit Contact info and place order-->
+		<form id ="contactinfo"  onsubmit="place_order()">
+			<h3>Enter Contact Information</h3>
+			<br />
+			<div class="form-group row">
+			  <label for="fullname" class="col-sm-2 col-form-label col-form-label-sm">Full Name</label>
+			  <div class="col-sm-6">
+				<input class="form-control form-control-sm" type="text" value="" id="fullname"required >
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="phone" class="col-sm-2 col-form-label col-form-label-sm">Phone</label>
+			  <div class="col-sm-6">
+				<input class="form-control form-control-sm" type="tel" value="" id="phone" required>
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="email" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+			  <div class="col-sm-6">
+				<input class="form-control form-control-sm" type="email" value="" id="email" required>
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="street" class="col-sm-2 col-form-label col-form-label-sm">Street Address</label>
+			  <div class="col-sm-6">
+				<input class="form-control form-control-sm" type="text" value="" id="street" required>
+			  </div>
+			</div>
+			<div class="form-group row">
+			  <label for="city" class="col-sm-2 col-form-label col-form-label-sm">City</label>
+			  <div class="col-sm-6">
+				<input class="form-control form-control-sm" type="text" value="" id="city" required>
+			  </div>
+			</div>			
+			<div class="form-group row">
+			  <label for="zip" class="col-sm-2 col-form-label col-form-label-sm">Zip Code</label>
+			  <div class="col-sm-6">
+				<input class="form-control form-control-sm" type="number" value="" id="zip" required>
+			  </div>
+			</div>
+				
+			<br /><br /><br />
+			<!--Place final order button-->
+			<input type="submit" id="orderpizza" class="btn btn-success" value="Place Order">
+		</form>
+		<!--End of contact info form-->
+	</div>
+	<!--End of Check out-->
+		
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./Javascript/WWPizza.js"></script>
+	<link rel="stylesheet" href="./css/WWPizza.css">
+	</body>
+</html>

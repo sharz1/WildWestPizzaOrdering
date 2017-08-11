@@ -1,0 +1,32 @@
+#popupBox {
+	width:350px;
+	height:150px;
+	text-align: center;
+	border: 2px solid green;
+	border-radius: 10px;
+}
+
+#confirmationBox {
+	color: red;
+	position: absolute;
+	right: 10px;
+}
+
+#orderpizza {
+	position: absolute;
+	right: 15px;
+}
+
+#contactinfo {
+	display: block;
+	margin: auto;
+}
+
+p:nth-child(3) {
+	font-style: italic;
+	font-size: .875em;
+}
+
+h3 {
+	color: orange;
+}
